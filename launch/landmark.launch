@@ -13,7 +13,7 @@
         <param name="landmark_file" value="$(find calibration_gazebo)/sdf/landmark.sdf"/>
         
         <!-- Bridge from velocity to pose -->
-        <node name="landmark_bridge" pkg="calibration_gazebo" type="move_landmark.py"/>
+        <node name="landmark_bridge" pkg="calibration_gazebo" type="move_landmark.py" output="screen"/>
         
   </group>
           
